@@ -2,6 +2,9 @@
 
 `deploy_agent.sh` is a shell script that bootstraps, runs and archives the logs of the Student Attendance Tracker (`attendance_checker.py`). The Python application is never modified; everything here is shell scripting around it.
 
+## video recording
+https://drive.google.com/file/d/1vPPIsmo7qJpJbPsyNktM_qyHJeFF-YoK/view?usp=sharing
+
 ## Repository layout
 
 ```
@@ -37,6 +40,16 @@ attendance_tracker_<name>/
 - `zip`
 
 Deploy checks for `python3`, `zip` and the three template files, and stops with a clear message if anything is missing.
+
+## Download and Setup
+1. Clone the repository from GitHub:
+```
+git clone https://github.com/msbabdelgadir/deploy_agent_msbabdelgadir
+```
+3. Enter the project folder:
+```
+cd deploy_agent_msbabdelgadir
+```
 
 ## How to run and select a feature
 
